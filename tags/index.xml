@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Plum Site</title>
+    <link>plum.github.io/tags.html</link>
+    <description>Recent content in Tags on Plum Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 Aug 2020 16:01:52 +0100</lastBuildDate>
+    
+	<atom:link href="plum.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spirit</title>
+      <link>plum.github.io/tags/spirit.html</link>
+      <pubDate>Tue, 04 Aug 2020 16:01:52 +0100</pubDate>
+      
+      <guid>plum.github.io/tags/spirit.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>woodland</title>
+      <link>plum.github.io/tags/woodland.html</link>
+      <pubDate>Fri, 29 Mar 2002 00:00:00 +0000</pubDate>
+      
+      <guid>plum.github.io/tags/woodland.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>values</title>
+      <link>plum.github.io/tags/values.html</link>
+      <pubDate>Thu, 29 Nov 2001 00:00:00 +0000</pubDate>
+      
+      <guid>plum.github.io/tags/values.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>species</title>
+      <link>plum.github.io/tags/species.html</link>
+      <pubDate>Fri, 02 Nov 2001 00:00:00 +0000</pubDate>
+      
+      <guid>plum.github.io/tags/species.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

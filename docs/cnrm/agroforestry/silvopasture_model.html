@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Table of Contents
+1&nbsp;&nbsp;&nbsp;Aim of the Assignment 2&nbsp;&nbsp;&nbsp;The Agroforestry Trial 3&nbsp;&nbsp;&nbsp;How a Model of Silvopasture Was Built 4&nbsp;&nbsp;&nbsp;Evaluation of Running the Model 5&nbsp;&nbsp;&nbsp;Further Considerations of Silvopasture Model   1&nbsp;&nbsp;&nbsp;Aim of the Assignment Growth data from current agroforestry trials in Columbia were to be modelled using AME&#39;s Simile object - based computer programme. The trails included three strata of shrub, arboreal (i.e. fruit trees) and timber trees, over pasture.
+ 2&nbsp;&nbsp;&nbsp;The Agroforestry Trial Shrubs had been planted at a density of 625 ha-1, arboreal trees at 144 ha-1, and timber at 36 ha-1.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Modelling Silvopasture Canopy and Growth" />
+<meta property="og:description" content="Table of Contents
+1&nbsp;&nbsp;&nbsp;Aim of the Assignment 2&nbsp;&nbsp;&nbsp;The Agroforestry Trial 3&nbsp;&nbsp;&nbsp;How a Model of Silvopasture Was Built 4&nbsp;&nbsp;&nbsp;Evaluation of Running the Model 5&nbsp;&nbsp;&nbsp;Further Considerations of Silvopasture Model   1&nbsp;&nbsp;&nbsp;Aim of the Assignment Growth data from current agroforestry trials in Columbia were to be modelled using AME&#39;s Simile object - based computer programme. The trails included three strata of shrub, arboreal (i.e. fruit trees) and timber trees, over pasture.
+ 2&nbsp;&nbsp;&nbsp;The Agroforestry Trial Shrubs had been planted at a density of 625 ha-1, arboreal trees at 144 ha-1, and timber at 36 ha-1." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html" />
+<meta property="article:published_time" content="2001-11-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2001-11-02T00:00:00+00:00" />
+<title>Modelling Silvopasture Canopy and Growth | Plum Site</title>
+<link rel="manifest" href="/plum.github.io/manifest.json">
+<link rel="icon" href="/plum.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/plum.github.io/book.min.dc9dc3d9565a65df02c7dda2a839404a6eeb7c23fae886dade240bec102b3ddd.css" integrity="sha256-3J3D2VZaZd8Cx92iqDlASm7rfCP66Iba3iQL7BArPd0=">
+<script defer src="/plum.github.io/en.search.min.0f1dcd0a374a244ebb9cba52d7d73a786ae1b75d642ed2217ffb95ad36376da9.js" integrity="sha256-Dx3NCjdKJE67nLpS19c6eGrht11kLtIhf/uVrTY3bak="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/plum.github.io"><span>Plum Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <a href="plum.github.io/docs/hugo-book.html" class="collapsed ">Hugo-Book</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm.html" class="collapsed ">Land Management</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/remote_sensing.html" class="">Remote Sensing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry.html" class="">Agroforestry</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/upland_diversification_pontbren.html" class="">Agroforestry Upland Farm Diversification, Wales</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/economics_agroforestry.html" class="">Economics of Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/ecosystemproductivity_oda.html" class="">Enhancing ecosystem and productivity in Oda</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html" class="">Soil Changes Under Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_light_Water_growth.html" class="">Modelling Silvopasture Light, Water and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agricultural_policies_flooding.html" class="">Agricultural Policies to Mitigate Flooding</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mosaics_cdfu.html" class="">Modelling Interactions in Shifting Mosaics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html" class="active">Modelling Silvopasture Canopy and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agroforest_systems_baltistan.html" class="">Representing Agroforest Systems Baltistan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/localknowledge_atwima.html" class="">Representing Local Knowledge, Atwima</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mountain_culture.html" class="">Mountain Culture, Natural Resources and Tourism</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Man-Nature Values Study</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/man_nature/hnrstudy.html" class="">Human Nature Relationship Questionnaire</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Management Plans</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_archaeological_features.html" class="">Orme Archaeological Features</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brachypodium_sylvaticum.html" class="">Orme Brachypodium sylvaticum grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brackenpteridiumaquili.html" class="">Orme Bracken Pteridium aquilinum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_broadleavedwoodland.html" class="">Orme Broad-leaved Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousheath.html" class="">Orme Calcicolous Grass Heath</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcifugousgrass.html" class="">Orme Calcifugous Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_densescatteredscrub.html" class="">Orme Dense/Scattered Scrub</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_quarries.html" class="">Orme Disturbed ground, Quarries, Rock outcrops</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_educationinterpretation.html" class="">Orme Education, Interpretation, Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fauna.html" class="">Orme Fauna</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fenmeadow.html" class="">Orme Fen Meadow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_limestonepavement.html" class="">Orme Limestone Pavement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_seacliffslimestone.html" class="">Orme Limestone Sea cliffs and maritime communities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousgrass.html" class="">Orme Lowland Calcicolous Grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_management_plan.html" class="">Orme Management Plan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_mesotrophicgrasslands.html" class="">Orme Mesotrophic Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_recreationalfacilities.html" class="">Orme Recreational Use and Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_silverstuddedblue.html" class="">Orme Silver-Studded Blue Butterfly</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_specificsitemanagement.html" class="">Orme Specific Site Management Projects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_wildcotoneaster.html" class="">Orme Wild Cotoneaster</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Species Conservation</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/cheetah.html" class="">Cheetah Decline</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/conservation_species.html" class="">Conservation of Species</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/zoos.html" class="">Ex Situ, In Situ Conservation and Zoos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/oryx.html" class="">Reintroduction Arabian Oryx</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/development.html" class="">Species and Development</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Surveying</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html" class="">Establishing Walnut and Connecting Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html" class="">Samplejs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html" class="">Tutorjs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html" class="">JNCC Habitat Survey Mynnd Llangednai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Thesis Human-Nature Values</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_preface.html" class="">Preface</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_declaration.html" class="">Declaration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_acknowledgements.html" class="">Acknowledgements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_tablesandfigures.html" class="">Tables and Figures</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_results.html" class="">Results of the Investigation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_references.html" class="">References</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_values.html" class="">Adaptation of Sacred Land</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="plum.github.io/posts.html" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/plum.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Modelling Silvopasture Canopy and Growth</strong>
+
+  <label for="toc-control">
+    
+    <img src="/plum.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><div class="document">
+
+
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#aim-of-the-assignment" id="id1">1&nbsp;&nbsp;&nbsp;Aim of the Assignment</a></li>
+<li><a class="reference internal" href="#the-agroforestry-trial" id="id2">2&nbsp;&nbsp;&nbsp;The Agroforestry Trial</a></li>
+<li><a class="reference internal" href="#how-a-model-of-silvopasture-was-built" id="id3">3&nbsp;&nbsp;&nbsp;How a Model of Silvopasture Was Built</a></li>
+<li><a class="reference internal" href="#evaluation-of-running-the-model" id="id4">4&nbsp;&nbsp;&nbsp;Evaluation of Running the Model</a></li>
+<li><a class="reference internal" href="#further-considerations-of-silvopasture-model" id="id5">5&nbsp;&nbsp;&nbsp;Further Considerations of Silvopasture Model</a></li>
+</ul>
+</div>
+<div class="section" id="aim-of-the-assignment">
+<h2><a class="toc-backref" href="#id1">1&nbsp;&nbsp;&nbsp;Aim of the Assignment</a></h2>
+<p>Growth data from current agroforestry trials in Columbia were to be modelled using AME's Simile object - based computer programme. The trails included three strata of shrub, arboreal (i.e. fruit trees) and timber trees, over pasture.</p>
+</div>
+<div class="section" id="the-agroforestry-trial">
+<h2><a class="toc-backref" href="#id2">2&nbsp;&nbsp;&nbsp;The Agroforestry Trial</a></h2>
+<p>Shrubs had been planted at a density of 625 ha-1, arboreal trees at 144 ha-1, and timber at 36 ha-1.</p>
+<p><em>The species included in the trial were,</em></p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Shrubs:</dt>
+<dd><em>Crescentia cujete</em> (Cc), <em>Glyricidia sepium</em> (Gs) and <em>Leucocephala leucocephala</em> (Li);</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Arboreals:</dt>
+<dd><em>Cassia grandis;</em></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Timber trees:</dt>
+<dd><em>Pachira quinata.</em></dd>
+</dl>
+</li>
+</ul>
+<p>These planting densities were represented in the model. I constructed a sub-plot of 5 species and twelve trees. Their layout in  the plantation appears  as in the grid:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Cc</td>
+<td>Gs</td>
+<td>Li</td>
+<td>Cc</td>
+</tr>
+<tr><td>Gs</td>
+<td>Pq</td>
+<td>Cc</td>
+<td>Cg</td>
+</tr>
+<tr><td>Li</td>
+<td>Cc</td>
+<td>Gs</td>
+<td>Li</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="how-a-model-of-silvopasture-was-built">
+<h2><a class="toc-backref" href="#id3">3&nbsp;&nbsp;&nbsp;How a Model of Silvopasture Was Built</a></h2>
+<ol class="arabic simple">
+<li>A model of a tree</li>
+<li>Twelve instances of tree</li>
+<li>Locating the fixed population on a grid</li>
+<li>A sub model '<em>pasture</em>'</li>
+</ol>
+<div class="section" id="a-model-of-a-tree">
+<h3>3.1&nbsp;&nbsp;&nbsp;A model of a tree</h3>
+<p>This was constructed and enclosed in a sub-model box, entitled 'tree'. One container represented accumulating growth as '<em>biomass'</em>. Initial values were entered. The containers' value is used as a multiplier of growth, and should not be zero.</p>
+<p>Growth rate ('gr'), maximum size ('maxsize') and, loss ('loss') variables were created to model growth of a tree, given by the flow equation 'photo'. The relative figures for  growth and loss were gave a balanced growth over time:</p>
+<ul class="simple">
+<li><em>photo = gr x biomass x (1-biomass/maxsize)</em></li>
+</ul>
+<p>A loss equation gives decreasing exponential and limited growth:</p>
+<ul class="simple">
+<li><em>loss = 0.2 x biomass</em></li>
+</ul>
+</div>
+<div class="section" id="twelve-instances-of-tree">
+<h3>3.2&nbsp;&nbsp;&nbsp;Twelve Instances of Tree</h3>
+<p>These were created by 'generated set', 'dimensions = 12', in the sub-model population window. Each species was assigned a code 1 to 5. In our layout, the Index appears as,</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>1</td>
+<td>2</td>
+<td>3</td>
+<td>1</td>
+</tr>
+<tr><td>2</td>
+<td>4</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr><td>1</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>The species  code was indexed as an array within the modelling programme. An array variable was created named 'species', and the equation entered:</p>
+<ul class="simple">
+<li><em>species = element((1,2,3,1,2,4,1,5,1,1,2,1)),index(1))</em></li>
+</ul>
+<p>With this array I could assign growth rates to each species as in our array:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="29%" />
+<col width="29%" />
+<col width="21%" />
+<col width="21%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>1.4</td>
+<td>1.59</td>
+<td>1.2</td>
+<td>1.4</td>
+</tr>
+<tr><td>1.59</td>
+<td>0.5</td>
+<td>1.4</td>
+<td>0.4</td>
+</tr>
+<tr><td>1.4</td>
+<td>1.59</td>
+<td>1.2</td>
+<td>1.4</td>
+</tr>
+</tbody>
+</table>
+<p>The growth rates (gr) were  entered into the equation:</p>
+<ul class="simple">
+<li><em>if species = 1 then 1.4 else if species = 2 then 1.59 else if species = 3 then 1.2 else if species = 4 then 0.5 else if species = 5 then 0.4 else 0</em></li>
+</ul>
+<p>Maximum heights (not true heights) were assigned as:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>10</td>
+<td>17</td>
+<td>15</td>
+<td>10</td>
+</tr>
+<tr><td>17</td>
+<td>40</td>
+<td>10</td>
+<td>30</td>
+</tr>
+<tr><td>15</td>
+<td>25</td>
+<td>17</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+<p>This gives the equations for the array (maxsize):</p>
+<ul class="simple">
+<li><em>if species = 1 then 10 else if species = 2 then 17 else if species = 3 then 15 else if species = 4 then 40 else if species = 5 then 30 else 0</em></li>
+</ul>
+</div>
+<div class="section" id="locating-the-fixed-population-on-a-grid">
+<h3>3.3&nbsp;&nbsp;&nbsp;Locating the Fixed Population on a Grid</h3>
+<p>The modelling environment offers a default 10 x 10 grid, giving 100 cells to which all instances of a model may be located through x, y co-ordinates.
+I ran the sub model 'tree' with random co-ordinates, using the function rand (0,100) for each of Xposn and Yposn variables. Selecting the Lollipop tool gave a dynamic 3-d representation. The sub model ran successfully.</p>
+<p>I wished to specify the planting arrangement, and therefore indexed their locations. By default, each cell is divided in to 10 by 10 co-ordinates giving 100 x 100 point co-ordinates.</p>
+<p>I calculated the cell co-ordinates for each member of the array of twelve using the following grid. I calculated  central values. For example in cell 1 (0 to 10) central value is 5, for the first  square's central co-ordinates.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="27%" />
+<col width="18%" />
+<col width="18%" />
+<col width="18%" />
+<col width="18%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>x/y</td>
+<td>5</td>
+<td>15</td>
+<td>25</td>
+<td>35</td>
+</tr>
+<tr><td>5</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>15</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr><td>25</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>This gives the two equations for  x, y variables:</p>
+<ul class="simple">
+<li><em>Xposn = element((5,15,25,35,5,15,25,35,5,15,25,35),index(1))</em></li>
+<li><em>Yposn = element((5,5,5,5,15,15,15,15,25,25,25,25),index(1))</em></li>
+</ul>
+<p>The formula '<em>element(array)</em>' gives the selected array of values. The function index (1), returns those values to each member in the population, in order. The sub model ran successfully.</p>
+</div>
+<div class="section" id="a-sub-model-pasture">
+<h3>3.4&nbsp;&nbsp;&nbsp;A sub model 'pasture'</h3>
+<p>This model was built with one compartment, '<em>height</em>', representing growth above ground. It was placed upon a sub model '<em>quadrat</em>'. The quadrat represents the grid square so the x and y  equations were used to provide 12  cells for pasture to correspond with the trees.</p>
+<p>In the quadrat a '<em>distance</em>' variable was created to give the distance of each cell on the quadrat to each tree position in the array, by the equation,</p>
+<ul class="simple">
+<li><em>Distance =  hypot((Xposn) - x,(yposn) - y)</em></li>
+</ul>
+<p>Tree '<em>biomass</em>' as a variable gives an indication of  light interception. A '<em>stratalight</em>' variable was produced to give a reduction in light according to the strata in which the tree '<em>biomass</em>' was positioned. Thus, timber at the top is simply biomass; fruit is biomass/2; shrubs are biomass/4. This makes the assumption that strata 1 is most light demanding, and strata 3 (i.e. shrubs), less so.</p>
+<p>A '<em>shade</em>' variable placed on the pasture sub model calculates shade for each cell at grass level. It is relative to the distance from each tree biomass and position in the array, and is given by the equation,</p>
+<ul class="simple">
+<li><em>shade = stratalight/1 + Distance</em></li>
+</ul>
+<p>The values given by the shade variable were then transformed into available light by the variable '<em>light</em>'  whose equation was,</p>
+<ul class="simple">
+<li><em>Light = var2/(var2 + shade)</em></li>
+</ul>
+<p>Some modelling involved adjusting figures. Units are relative only. '<em>var2</em>' allowed me to match the scale of values for shade to the scale of values of pasture growth, given by '<em>photo'</em>.</p>
+<p>The division by shade for a second time gives  a more suitable proportion of available light to shade for pasture growth in the range of 1:3, rather than 1:100. This proportion bears upon the growth rate.</p>
+<p>The equation and its values for var2 was arrived at by calculations on paper, and then rerunning the model until a balance between light and shade was arrived at.</p>
+<p>The flow equation for pasture growth (photo) was given the exponential form:</p>
+<ul class="simple">
+<li><em>photo = gr x light x height x (1 - height/maxheight)</em></li>
+</ul>
+</div>
+</div>
+<div class="section" id="evaluation-of-running-the-model">
+<h2><a class="toc-backref" href="#id4">4&nbsp;&nbsp;&nbsp;Evaluation of Running the Model</a></h2>
+<ul class="simple">
+<li>Instruction: Use a lollipop diagram for tree growth and for pasture growth, and plot value pasture <em>height</em> against time: run for 60 time units.*</li>
+</ul>
+<p>I found that  'division by zero' prevented me from running the model with AME's equation, <em>shade = sum(biomass/distance ^ 2)</em>, in the disaggregated agroforestry model.</p>
+<p>Using  the denominator <em>1 + distance</em>, didn't solve the problem, and I had to resort to a suitable equation of my own making, which gives a relationship between distance and shade.</p>
+<p>Additionally, I experienced problems with the equation <em>sum(stratalight/distance ^ 2)</em> as &quot;<em>ERROR unit expression array(1,size(tree)) has array dimensions 1 which are incompatible with the array it represents, whose dimensions are ()&quot;</em>. This AME equation worked when applying random positions to the x,y coordinates of the tree population, but not with fixed coordinates as I intended.</p>
+<p>The 3d viewer did not work with my model with fixed rasta coordinates. I suspect overall the problems emerge with my selecting a sub-plot of 4 x 3 and not 10x10. To realistically model agroforestry trails of a chosen plot size seems important to me, and that is why I persisted.</p>
+<p>I also modelled loss flow for trees using the conditional equation,</p>
+<ul class="simple">
+<li><em>if biomass &gt; 20 then 0.1 x biomass else 0.</em></li>
+</ul>
+<p>This loss flow only operates if tree biomass is greater than the specified amount. This  may represent  care taken in establishing seedlings, or replanting. Alternatively, perhaps cutting fodder for cattle after the plant has reached some maturity.</p>
+<p>Investigating the dynamics of the model, the following table records my results when manipulating variables. Here, I kept the trees' maximum height and growth rates the same, once I had a useful representation for different species.</p>
+<p>Table: Pasture height and pasture photosynthesis, with manipulations of variables</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="3%" />
+<col width="8%" />
+<col width="15%" />
+<col width="12%" />
+<col width="15%" />
+<col width="9%" />
+<col width="20%" />
+<col width="18%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">var2</th>
+<th class="head">gr(pasture)</th>
+<th class="head">respiration(pasture)</th>
+<th class="head">init.tree biomass</th>
+<th class="head">initial photo(range)</th>
+<th class="head">photo;time=60</th>
+<th class="head">pasture height after time=60</th>
+<th class="head">max height(pasture)/time</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>50</td>
+<td>1</td>
+<td>0.01</td>
+<td>3</td>
+<td>0.50-0.95</td>
+<td>0.001-0.47</td>
+<td>21.07-23.4</td>
+<td>24/10</td>
+</tr>
+<tr><td>20</td>
+<td>1</td>
+<td>0.01</td>
+<td>3</td>
+<td>0.34-0.93</td>
+<td>0.040-0.4</td>
+<td>14.00-15.8</td>
+<td>17/5</td>
+</tr>
+<tr><td>20</td>
+<td>1</td>
+<td>0.04</td>
+<td>3</td>
+<td>0.34-0.93</td>
+<td>0.070-0.55</td>
+<td>06.50-07.5</td>
+<td>10/3</td>
+</tr>
+<tr><td>20</td>
+<td>2</td>
+<td>0.04</td>
+<td>3</td>
+<td>0.34-0.93</td>
+<td>0.130-1.1</td>
+<td>13.00-14.4</td>
+<td>19.5/3</td>
+</tr>
+<tr><td>20</td>
+<td>2</td>
+<td>0.04</td>
+<td>4</td>
+<td>0.34-0.93</td>
+<td>0.130-1.1</td>
+<td>13.00-14.4</td>
+<td>18.2/4</td>
+</tr>
+</tbody>
+</table>
+<ol class="arabic simple">
+<li>When 'var2' was changed from 20 to 50, increases are noted in initial growth quantity ('photo'), maximum 'height' attained, and 'height' of pasture when time (t) = 60. This is because the shade factor weighting is reduced by increasing var2.</li>
+</ol>
+<p>Notably at t=60, range in growth quantity increased whilst range in pasture 'height' decreased, with this manipulation.</p>
+<ol class="arabic simple" start="2">
+<li>When the loss function ('respiration') of pasture was increased the growth quantity ('photo') decreased along with the resultant pasture height in time.Maximum height also decreased. 'photo' is a function here of pasture height.</li>
+<li>When the variable pasture growth rate ('gr') was doubled to gr = 2, the growth quantity ('photo') increased along with maximum 'height' and height at t = 60. 'Height' and 'photo' ranges were both greater than when gr = 1.</li>
+<li>When initial tree biomass was increased from 3 to 4, the  growth quantity and pasture heights when t = 60, remained the same as when biomass = 3. The maximum pasture height decreased however, and took longer to reach. This result represents a consequence of increased shade at an earlier time, but where final shade remains the same. This is because the tree maxheights were not changed.</li>
+</ol>
+</div>
+<div class="section" id="further-considerations-of-silvopasture-model">
+<h2><a class="toc-backref" href="#id5">5&nbsp;&nbsp;&nbsp;Further Considerations of Silvopasture Model</a></h2>
+<p>The model's equation concerning distance from a tree to give shade by the hypotenuse function assumes that shade is denser at the centre of the tree. The equation is neither shade given by spread, nor density of crown. However, biomass is a useful variable for shade and could be modified for the species.</p>
+<p>Spread of crown also needs to be modelled within a layer in order to predict competitive limits to spread.</p>
+<p>Trees specialise in light usage. Within each layer of trees, relative shade tolerance or light demand of a tree needs to be taken into account in order to assess its growth, and subsequently the growth of strata below.</p>
+<p>Models of 'spread of a substance' from one cell to surrounding cells from a centre offer this possibility. Competition for water and nutrients in pairs and hence complex arrangements may similarly be explored.</p>
+<p>Movement of the sun, and time of day, are additional factors of light intensity and length of tree shadow. The natural environment might appear complicated, but I suppose that all these factors could be modelled.</p>
+<p>The slide control is particularly useful for balancing variables, but gives duplicate sliders for each member in a population, which isn't convenient when the members share one common variable, as with uniform grass.</p>
+<p>Entering species and planting data in tables would be useful for approved models.</p>
+<p>One reason for exploring models, is to assist with planting and management decisions.
+We consider models existing in our head even when in the field. An experienced caretaker, in a tradition of sustainable natural resource management, in some way responds immediately when visiting the site. That person's model reflects the site. Management decisions change the site. It is ongoing.</p>
+<p>Simulation models could be useful, as an explorative tool, in guiding and planning research. Research trials may take considerable time. In a short space of time we may explore the models in our heads, given access to a computer modelling environment.</p>
+<p>This Silvopastoral model is at the plot level, and is useful as such. Such models may also be built into landscape level models, such as the (recently renamed) Fallow Model of Meine van Noordwij.</p>
+</div>
+</div></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="plum.github.io/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="plum.github.io/ru/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        Russian
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jakBop" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

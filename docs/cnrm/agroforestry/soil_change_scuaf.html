@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Designation:M.Sc. 532    Table of Contents
+1&nbsp;&nbsp;&nbsp;Objective 2&nbsp;&nbsp;&nbsp;Introduction 3&nbsp;&nbsp;&nbsp;Modelling Intercropping with SCUAF 4&nbsp;&nbsp;&nbsp;How the Model Works in the Simulation 5&nbsp;&nbsp;&nbsp;Inputs SCUAF 6&nbsp;&nbsp;&nbsp;Universal Soil Loss Equation 7&nbsp;&nbsp;&nbsp;Erosion &amp; Fertility 8&nbsp;&nbsp;&nbsp;Analysis of Results 9&nbsp;&nbsp;&nbsp;Nutrient Cycle 10&nbsp;&nbsp;&nbsp;Plant growth 11&nbsp;&nbsp;&nbsp;Conclusion 12&nbsp;&nbsp;&nbsp;References SCUAF 13&nbsp;&nbsp;&nbsp;Appendix 2   1&nbsp;&nbsp;&nbsp;Objective Compare soil erosion, loss of top soil, and nutrients (N and P) between Glyricidia hedgerow inter-cropped with maize, and maize mono-cropping systems in Lampung, Indonesia.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Soil Changes Under Agroforestry" />
+<meta property="og:description" content="Designation:M.Sc. 532    Table of Contents
+1&nbsp;&nbsp;&nbsp;Objective 2&nbsp;&nbsp;&nbsp;Introduction 3&nbsp;&nbsp;&nbsp;Modelling Intercropping with SCUAF 4&nbsp;&nbsp;&nbsp;How the Model Works in the Simulation 5&nbsp;&nbsp;&nbsp;Inputs SCUAF 6&nbsp;&nbsp;&nbsp;Universal Soil Loss Equation 7&nbsp;&nbsp;&nbsp;Erosion &amp; Fertility 8&nbsp;&nbsp;&nbsp;Analysis of Results 9&nbsp;&nbsp;&nbsp;Nutrient Cycle 10&nbsp;&nbsp;&nbsp;Plant growth 11&nbsp;&nbsp;&nbsp;Conclusion 12&nbsp;&nbsp;&nbsp;References SCUAF 13&nbsp;&nbsp;&nbsp;Appendix 2   1&nbsp;&nbsp;&nbsp;Objective Compare soil erosion, loss of top soil, and nutrients (N and P) between Glyricidia hedgerow inter-cropped with maize, and maize mono-cropping systems in Lampung, Indonesia." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html" />
+<meta property="article:published_time" content="2001-12-12T00:00:00+00:00" />
+<meta property="article:modified_time" content="2001-12-12T00:00:00+00:00" />
+<title>Soil Changes Under Agroforestry | Plum Site</title>
+<link rel="manifest" href="/plum.github.io/manifest.json">
+<link rel="icon" href="/plum.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/plum.github.io/book.min.dc9dc3d9565a65df02c7dda2a839404a6eeb7c23fae886dade240bec102b3ddd.css" integrity="sha256-3J3D2VZaZd8Cx92iqDlASm7rfCP66Iba3iQL7BArPd0=">
+<script defer src="/plum.github.io/en.search.min.0f1dcd0a374a244ebb9cba52d7d73a786ae1b75d642ed2217ffb95ad36376da9.js" integrity="sha256-Dx3NCjdKJE67nLpS19c6eGrht11kLtIhf/uVrTY3bak="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/plum.github.io"><span>Plum Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <a href="plum.github.io/docs/hugo-book.html" class="collapsed ">Hugo-Book</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm.html" class="collapsed ">Land Management</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/remote_sensing.html" class="">Remote Sensing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry.html" class="">Agroforestry</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/upland_diversification_pontbren.html" class="">Agroforestry Upland Farm Diversification, Wales</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/economics_agroforestry.html" class="">Economics of Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/ecosystemproductivity_oda.html" class="">Enhancing ecosystem and productivity in Oda</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html" class="active">Soil Changes Under Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_light_Water_growth.html" class="">Modelling Silvopasture Light, Water and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agricultural_policies_flooding.html" class="">Agricultural Policies to Mitigate Flooding</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mosaics_cdfu.html" class="">Modelling Interactions in Shifting Mosaics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html" class="">Modelling Silvopasture Canopy and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agroforest_systems_baltistan.html" class="">Representing Agroforest Systems Baltistan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/localknowledge_atwima.html" class="">Representing Local Knowledge, Atwima</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mountain_culture.html" class="">Mountain Culture, Natural Resources and Tourism</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Man-Nature Values Study</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/man_nature/hnrstudy.html" class="">Human Nature Relationship Questionnaire</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Management Plans</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_archaeological_features.html" class="">Orme Archaeological Features</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brachypodium_sylvaticum.html" class="">Orme Brachypodium sylvaticum grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brackenpteridiumaquili.html" class="">Orme Bracken Pteridium aquilinum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_broadleavedwoodland.html" class="">Orme Broad-leaved Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousheath.html" class="">Orme Calcicolous Grass Heath</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcifugousgrass.html" class="">Orme Calcifugous Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_densescatteredscrub.html" class="">Orme Dense/Scattered Scrub</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_quarries.html" class="">Orme Disturbed ground, Quarries, Rock outcrops</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_educationinterpretation.html" class="">Orme Education, Interpretation, Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fauna.html" class="">Orme Fauna</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fenmeadow.html" class="">Orme Fen Meadow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_limestonepavement.html" class="">Orme Limestone Pavement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_seacliffslimestone.html" class="">Orme Limestone Sea cliffs and maritime communities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousgrass.html" class="">Orme Lowland Calcicolous Grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_management_plan.html" class="">Orme Management Plan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_mesotrophicgrasslands.html" class="">Orme Mesotrophic Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_recreationalfacilities.html" class="">Orme Recreational Use and Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_silverstuddedblue.html" class="">Orme Silver-Studded Blue Butterfly</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_specificsitemanagement.html" class="">Orme Specific Site Management Projects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_wildcotoneaster.html" class="">Orme Wild Cotoneaster</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Species Conservation</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/cheetah.html" class="">Cheetah Decline</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/conservation_species.html" class="">Conservation of Species</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/zoos.html" class="">Ex Situ, In Situ Conservation and Zoos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/oryx.html" class="">Reintroduction Arabian Oryx</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/development.html" class="">Species and Development</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Surveying</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html" class="">Establishing Walnut and Connecting Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html" class="">Samplejs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html" class="">Tutorjs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html" class="">JNCC Habitat Survey Mynnd Llangednai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Thesis Human-Nature Values</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_preface.html" class="">Preface</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_declaration.html" class="">Declaration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_acknowledgements.html" class="">Acknowledgements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_tablesandfigures.html" class="">Tables and Figures</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_results.html" class="">Results of the Investigation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_references.html" class="">References</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_values.html" class="">Adaptation of Sacred Land</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="plum.github.io/posts.html" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/plum.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Soil Changes Under Agroforestry</strong>
+
+  <label for="toc-control">
+    
+    <img src="/plum.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><div class="document">
+
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr class="designation field"><th class="docinfo-name">Designation:</th><td class="field-body">M.Sc. 532</td>
+</tr>
+</tbody>
+</table>
+<div class="contents topic" id="table-of-contents">
+<p class="topic-title first">Table of Contents</p>
+<ul class="auto-toc simple">
+<li><a class="reference internal" href="#objective" id="id1">1&nbsp;&nbsp;&nbsp;Objective</a></li>
+<li><a class="reference internal" href="#introduction" id="id2">2&nbsp;&nbsp;&nbsp;Introduction</a></li>
+<li><a class="reference internal" href="#modelling-intercropping-with-scuaf" id="id3">3&nbsp;&nbsp;&nbsp;Modelling Intercropping with SCUAF</a></li>
+<li><a class="reference internal" href="#how-the-model-works-in-the-simulation" id="id4">4&nbsp;&nbsp;&nbsp;How the Model Works in the Simulation</a></li>
+<li><a class="reference internal" href="#inputs-scuaf" id="id5">5&nbsp;&nbsp;&nbsp;Inputs SCUAF</a></li>
+<li><a class="reference internal" href="#universal-soil-loss-equation" id="id6">6&nbsp;&nbsp;&nbsp;Universal Soil Loss Equation</a></li>
+<li><a class="reference internal" href="#erosion-fertility" id="id7">7&nbsp;&nbsp;&nbsp;Erosion &amp; Fertility</a></li>
+<li><a class="reference internal" href="#analysis-of-results" id="id8">8&nbsp;&nbsp;&nbsp;Analysis of Results</a></li>
+<li><a class="reference internal" href="#nutrient-cycle" id="id9">9&nbsp;&nbsp;&nbsp;Nutrient Cycle</a></li>
+<li><a class="reference internal" href="#plant-growth" id="id10">10&nbsp;&nbsp;&nbsp;Plant growth</a></li>
+<li><a class="reference internal" href="#conclusion" id="id11">11&nbsp;&nbsp;&nbsp;Conclusion</a></li>
+<li><a class="reference internal" href="#references-scuaf" id="id12">12&nbsp;&nbsp;&nbsp;References SCUAF</a></li>
+<li><a class="reference internal" href="#appendix-2" id="id13">13&nbsp;&nbsp;&nbsp;Appendix 2</a></li>
+</ul>
+</div>
+<div class="section" id="objective">
+<h2><a class="toc-backref" href="#id1">1&nbsp;&nbsp;&nbsp;Objective</a></h2>
+<p>Compare soil erosion, loss of top soil, and nutrients (N and P) between <em>Glyricidia</em> hedgerow inter-cropped with maize, and maize mono-cropping systems in Lampung, Indonesia.</p>
+<p>Agroforestry can enhance nutrient cycling when compared to agriculture, and minimise losses to the system.</p>
+</div>
+<div class="section" id="introduction">
+<h2><a class="toc-backref" href="#id2">2&nbsp;&nbsp;&nbsp;Introduction</a></h2>
+<blockquote>
+&quot;Balanced ways go on and on, unbalanced ways disappear in harmonious times.&quot; ~ From the <em>I Ching</em> (hexagon No.11)</blockquote>
+<p>Sustainable practices of agriculture are not perpetual practices. Population growth has put pressure upon traditional crop-fallow land-use systems, to cause declining soil fertility an soil erosion with reduced fallow periods.</p>
+<p>Being unsustainable, such practices must eventually be abandoned. Yet timely interventions may alleviate suffering brought about by failing crop yields.</p>
+<p>To this end, study of crop interactions and soil changes is important in assessing the likely impact and sustainability of interventions upon land-use systems. Scuaf is a model developed as an aid to prediction in agroforest intervention, the effect of introducing trees on agricultural soils. Data is limited. The model demonstrates that trees can improve soil.</p>
+<p>A more immediate effect of soil erosion than loss of soil quantity is loss of organic matter and nutrients. Soil fertility is the capacity of soil to support plant growth, in the given environment. By reducing soil erosion and runoff, trees are viable as agroforestry if acceptable to farmers in terms of yield and competition. A high degree of internal recycling maintains fertility towards equilibrium,in the manner of natural ecosystems of diverse vegetation communities.</p>
+<p>Inter-cropping may increase yields through facilitation, or by mutual interactions, as well as prevent soil erosion.</p>
+<p>Decline, as opposed to low soil fertility caused by natural soil conditions, is brought about by past land use. Shifting cultivation is sustainable provided that the fallow periods are of adequate length. The necessary rest-period requirement 'R-factor', (i.e. years under cultivation/ years under cultivation plus fallow), depends upon the type of soil under consideration.
+Estimates of rest periods required are difficult to make, particularly if it is not known to what extent soils are e degrading under current land use. However, with intermediate inputs, one and two years under fallow are required.</p>
+<p>Renewal of nutrients by minimum tillage, fertiliser, green manuring, fallowing, return of crop residues, manures/composts and flood irrigation may have constraints in type or extent of land, and supply. Naturally sustainable soils are those derived from nitisol rocks that have the capacity to renew fertility by weathering. They are of limited extent and carry high populations.</p>
+</div>
+<div class="section" id="modelling-intercropping-with-scuaf">
+<h2><a class="toc-backref" href="#id3">3&nbsp;&nbsp;&nbsp;Modelling Intercropping with SCUAF</a></h2>
+<p>Inter-cropping is considered to have a crop cover total of 1.0 (100%). In the model the cover can be higher, which represents a multi strata system, as opposed to discrete inter-plantings. Crop cover affects soil erosion by protecting soil from exposure.</p>
+<p>17 elements are considered essential to growth. C, H and O are obtained from the air. 1 to 6% of plant composition is the 14 essential elements of the soil.</p>
+<p>Other macro nutrients essential to growth, (i.e. sulphur, calcium and magnesium, as well as the micro nutrients of Zen, Fe, Cu, Mn, Cl, and Co, are not modelled. They may in some respects be expected to follow a similar pattern cycling as the nutrients under observation, with exceptions under special circumstances, beyond the scope of the model, or the present study.</p>
+<p>Based on studies of forest, savanna, and semi-arid ecosystems, the Scuaf model has been developed so that trees-only give a steady-state soil.
+The model sets default values based on the user-defined land Use system and environmental conditions as a whole. Unless specified, default values were accepted. Default values for temperate climate are provisional.</p>
+<p>Plant composition in Kg DM per/ha/yr was calculated and specified for each species, from the fraction of NPP.</p>
+<ul class="simple">
+<li><dl class="first docutils">
+<dt>Leaf, wood and fruit 66%, 33% and 1% for Glyricidia.</dt>
+<dd><ul class="first last">
+<li>NPP for Glyricidia = 10650 Kg DM per/ha/yr.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Leaf and fruit 67% and 33% from maize.</dt>
+<dd><ul class="first last">
+<li>NPP for Maize = 555 Kg DM per/ha/yr.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Annual rainfall was set at 3200 mm. Climate; lowland humid</p>
+<p>Two soil horizons were set 0-20 a, and 20-40 cm, forming the lower boundary of the soil, or the approximate depth reached by the crop roots.</p>
+<p>All wood and fruit were removed for fuel and human consumption.
+Changes in status of soil and plant components are calculated as end of year values, and are applied to stores and flows, in kg/ha or kg/ha/yr, or fractions.</p>
+</div>
+<div class="section" id="how-the-model-works-in-the-simulation">
+<h2><a class="toc-backref" href="#id4">4&nbsp;&nbsp;&nbsp;How the Model Works in the Simulation</a></h2>
+<div class="section" id="carbon-nutrient-flows">
+<h3>4.1&nbsp;&nbsp;&nbsp;Carbon &amp; Nutrient Flows</h3>
+<ul class="simple">
+<li>The model adds plant residues to the soil according to removals as prunings, harvest, conversion losses, and standing biomass. No additions of fertiliser or manure to soil were entered in this simulation. Non-harvested tree prunings, are returned to soil.</li>
+<li>It is assumed that erosion losses of C,  N and P come from labile humus; the soil mineral fraction is assumed to be below the soil surface, unaffected by erosion.</li>
+<li>The rates of gains and loss in the cycling process were left in default values, proposed by the model according to the land use system.</li>
+</ul>
+</div>
+<div class="section" id="soil-carbon-cycle">
+<h3>4.2&nbsp;&nbsp;&nbsp;Soil Carbon Cycle</h3>
+<img alt="../images/tree_cropInterface.jpg" src="../images/tree_cropInterface.jpg" />
+<ul>
+<li><p class="first">Nutrients are stored in soil and plants, minerals are in addition stored in soil solution.</p>
+</li>
+<li><dl class="first docutils">
+<dt>Carbon in the soil is gained through humification.</dt>
+<dd><ul class="first simple">
+<li>Losses through oxidation: 'active fractions' of elements present in soil  meso- and micro-fauna, are subsumed within litter-to-humus conversion losses through oxidation.</li>
+</ul>
+<p class="last">humification = litter* (1-fractional LITTER TO HUMUS OXIDATION)</p>
+</dd>
+</dl>
+</li>
+<li><p class="first">Initial values are 67% humus in stable form. Stable humus annually transformed as 1% of labile.</p>
+</li>
+<li><p class="first">Decomposition of humus is 0.03 under trees and 0.04 under crops by default.</p>
+</li>
+<li><p class="first">labile  carbon is given a life of 10 years in the specified temperate soils. Stable carbon: Has a half life &gt; 50 years.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="inputs-scuaf">
+<h2><a class="toc-backref" href="#id5">5&nbsp;&nbsp;&nbsp;Inputs SCUAF</a></h2>
+<p>Plant composition was specified for each species.</p>
+<ul class="simple">
+<li>land Use systems area under trees and crops:</li>
+<li>Area under tree = 0.20; Area under crop= 0.80</li>
+<li>Area under trees = 0; Area under crop = 1.0</li>
+</ul>
+<p>Initial rates of growth (NPP) were input as:</p>
+<ul class="simple">
+<li>Glyricidia: 10560 kg DM per ha/yr.</li>
+<li>Maize: kg DM per ha/yr.</li>
+</ul>
+</div>
+<div class="section" id="universal-soil-loss-equation">
+<h2><a class="toc-backref" href="#id6">6&nbsp;&nbsp;&nbsp;Universal Soil Loss Equation</a></h2>
+<p>Erosion (A) = R * K * L * S * C * P (kg/ha/yr)*, WHERE:</p>
+<ul class="simple">
+<li>R =  The power of rainfall to cause erosion by amount and intensity (less intense in temperate climates). Kinetic energy, though measurable through drop size, it is an expensive machine, and it is approximated by taking half the local annual rainfall; 1/10 in temperate areas.</li>
+<li>K is Soil erodibility factor, and represents type of texture and structure; it is lowered by improving these. It represents also, the soil's  water holding capacity. Measured by taking the ratio betweeen erosivity and  erosivity representative factor soil.</li>
+<li>Li, and Si, are Slope length and Slope gradient taken in relation to 'standard plot gradient'.</li>
+<li>C is cover or, management of land under consideration / bare soil .</li>
+<li>P is erosion control practice. Compared with land ploughed against contour, without structures.</li>
+</ul>
+</div>
+<div class="section" id="erosion-fertility">
+<h2><a class="toc-backref" href="#id7">7&nbsp;&nbsp;&nbsp;Erosion &amp; Fertility</a></h2>
+<p>Leaching rates are generally higher for lowland humid climates, as are rainfall, decomposition rates, atmospheric input of nutrients, and supply of phosphorous by soil parent material (i.e. felsic, in this case). These varibles are factoredinto the model.</p>
+<p>Trees can protect soil from erosion. With slope, trees as permeable barriers prevent runoff where aligned to contours. Tree roots promote infiltration of water and hold soil in place. Tree prunings will check raindrop impact and runoff .</p>
+<p>The advantages given by trees may be determined by the tree proportionality factor, which may be user-defined. Intercropping is a spatial design, and this was modelled by,</p>
+<ul class="simple">
+<li><em>Area under tree (TPF) = 0.20 Area under crop (ie. 0.80)</em></li>
+</ul>
+<p>Erosivity can in fact sometimes increase with the cover of trees, due to raindrop splash. This depends upon leaf characteristics. In intercropping with multi-stemmed pruned trees, the raindrop velocity would be checked.</p>
+<p>Soil texture affects the leaching of nutrients, is improved by root infiltration. Below ground influences of tree roots upon adjacent soil under crops (default= 0.1), are calculated.</p>
+<p>It has been reported that depression in crop yields are found to be competition for water close to the hedgerow, although effects are sometimes positive. Glyricidia sepium has been reported to reduce potential evapotranspiration in crop alleys for most of the season. Prunings help to conserve water too, as well as reduce weed biomass and competition.</p>
+<p>Labile carbon is given a life of 10 years in the specified temperate soils. Stable carbon has a half life &gt; 50 years. Long term formation would add stability or equilibrium to the cycle of nutrients, under constant input. However availability of nutrients is mainly from the active fractions (1-2% of soil OM) in the fine litter,and some from labile humus, or from minerals. In temperate climates some may be carried over to the next year.</p>
+<p>Crop cover reduces exposure and hence erosion and gaseous escape of nutrients, including carbon dioxide. The greater the soil cover the less the cover factor in the Universal Soil loss Equation.</p>
+<p>There is a high tree-crop interface in intercropping due to the spatial design. This is considered in the input data which allows the system to be defined as 'alleycrop&amp;hedgerow'. The percentage cover by components doesn't specify inter-row distances, and I assume single rows are an assumption of the model.</p>
+<p>Generally between hedgerow spacing should be at 4-8 m; at greater than 10 m then there is insufficient biomass production.</p>
+</div>
+<div class="section" id="analysis-of-results">
+<h2><a class="toc-backref" href="#id8">8&nbsp;&nbsp;&nbsp;Analysis of Results</a></h2>
+<p>Interpretation of the Graphs 1a-10 in Appendix 1: Refer to Appendix 2 for Raw data Tables. Discussion of results follows.</p>
+<div class="section" id="soil-and-carbon-erosion-a">
+<h3>8.1&nbsp;&nbsp;&nbsp;Soil and Carbon Erosion (A)</h3>
+<p>A sustained decrease in soil depth in both conditions:</p>
+<blockquote>
+agroforestry (Af) &lt; maize only (MO).</blockquote>
+<img alt="../images/soilErosion1.jpg" src="../images/soilErosion1.jpg" />
+<p><em>Fig.1</em> shows the soil losses. The soil loss is explained by the Soil erosion factor (K) which has a sustained increase, and is grater for Af than MO.</p>
+<p><em>A = R x K x L x S x C x TPF x 1000 (kg/ha/yr)</em></p>
+<ul>
+<li><p class="first">Where R = The power of rainfall to cause erosion by amount and intensity (less intense in temperate climates);</p>
+</li>
+<li><p class="first">K = Soil erodibility factor; LxS = slope factor (length and slope)</p>
+<blockquote>
+<ul class="simple">
+<li>these are less than the original USLE values;</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">C = cover factor, treated separately for tree and crop.</p>
+</li>
+<li><p class="first">(L x S) and R are fixed for climate and physical conditions.</p>
+</li>
+<li><p class="first">K and C are themselves modified by the simulation of changes in plant and soil.</p>
+</li>
+</ul>
+<p><em>|Esystem| = (|Etree| x TPF) + (|Eproportional| x (1-TPF)</em></p>
+<p>E<sub>proportional</sub> = (E<sub>tree</sub> x A<sub>tree</sub>  (+ (E<sub>crop</sub> + A<sub>crop</sub>)*</p>
+<ul class="simple">
+<li>Where, E = erosion, and A = fractional area under cover.</li>
+<li>Erosion under trees is usually less than under crops: The trees may exert an influence greater than area they cover, an effect covered by the tree proportionality factor (TPF, Young &amp; Mayura 1990), (default=0.8).</li>
+<li>K represents type of texture and structure, and is lowered by improving these. It also represents the soil's water holding capacity. The model decreases K by 0.069% with each 1% increase in soil organic matter content (based on Wischmeier and Smith 1978), and hence soil erosion.</li>
+</ul>
+<p><em>Cn = Co x (NPPo/NPPn) where n = year n, 0 = year 0</em></p>
+<ul class="simple">
+<li>The model decreases crop cover factor (C) with increase in plant growth, to reduce erosion. Default values of 0.006 and 0.300 for tree and crop respectively, reduce erosivity for agroforestry (Af).</li>
+</ul>
+<img alt="../images/soilErosion5.jpg" src="../images/soilErosion5.jpg" />
+<p>From Fig. 3,</p>
+<ul class="simple">
+<li>% carbon decreases, and more for monocrop maize.</li>
+<li>Erosive loss of soil organic matter (OM), represented by carbon, is based on topsoil content, with an added enrichment factor for eroded sediment (This is true for and nutrient cycling too). It is assumed that erosion losses of C, N and P come from labile humus; the soil mineral fraction is assumed to be below the soil surface, unaffected by erosion.</li>
+</ul>
+<p><em>Losses of C, N, P: = erosion rate x proportion present in soil x enrichment factor.</em></p>
+<ul class="simple">
+<li>Decrease in carbon is followed by a rise in agroforestry. A high loss from the start in Mo continues at a declining rate along with declining carbon content. (See the raw data table 1b, erosion in MO).</li>
+<li>There are losses through oxidation. The model's decomposition factor of humus is 0.03 under trees and 0.04 under crops by default; reduced erosivity in agroforestry by comparison.</li>
+<li>Crop cover for both conditions shows an initial decrease in the first three years; greater sole crop. Subsequent increases are observed in agroforestry only. This modifies the crop cover factor.</li>
+<li>Organic matter (OM) in the soil is gained through humification of the plant residues ( ie. 'litter').</li>
+<li>The model adds the plant residues of non-harvested as prunings to the soil. No additions of fertiliser or manure to soil were entered in this simulation. In maize-only, the leaf was returned to soil, being a 'non-harvested crop pruning'. In agroforestry both maize and tree leaf prunings were returned to the soil. Favouring the monoculture, maize roots are returned to the soil, as they do not remain as standing biomass. Root turnover in trees is not explicitly considered, and may be underestimated. Pruning may increase the root turnover.</li>
+<li>There are conversion losses through oxidation, in which 'active fractions' of elements present in soil meso- and micro-fauna, are subsumed. Losses are alsao through leaching in addition to erosion.</li>
+</ul>
+<p><em>humification = litter x (1-fractional LITTER TO HUMUS OXIDATION)</em></p>
+<ul class="simple">
+<li>Harvests, conversion losses, and standing biomass are losses to the internal flows of the system.</li>
+<li>Conversion losses differ between above ground and root residues, and so prunings are not equivalent in nutrient status to additions as tree fodder through manure. Default values suggested by Nye &amp; Greenland (1960).</li>
+<li>For the top soil horizon, initial carbon and nitrogen status (1.7% and 0.14%) were set from field data.</li>
+<li>Dynamically, the proportion of OM present includes additions to the soil. (See, Soil carbon cycle, Appendix Figure 4). Soil carbon changes in the model are sensitive to rates of conversion loss. (Young 1997).</li>
+</ul>
+</div>
+</div>
+<div class="section" id="nutrient-cycle">
+<h2><a class="toc-backref" href="#id9">9&nbsp;&nbsp;&nbsp;Nutrient Cycle</a></h2>
+<p><em>Generally - Refer to Charts of Results, in Appendix,</em></p>
+<ul class="simple">
+<li>Generally, soil organic N changes run in parallel with carbon. Short and medium-term changes to occur within the topsoil where most of the carbon is in the labile form.</li>
+<li>Elements arising from decomposition of plant residue are added to labile humus and mineralised fractions.</li>
+<li>A substantial loss in N occurs at the star of the model run. It is assumed that only 0.1 of the mineralised nitrogen is carried over to the next year, and the pool must be reformed each year. The model proposes no nutrients arising from litter mineralisation in the first year, as in a shifting cultivation system. Thus substantial nitrogen deficiency occurs at the start of the model run, by default.</li>
+</ul>
+<p><em>Soil Organic Phosphorous (Charts 4 A-B),</em></p>
+<ul class="simple">
+<li>Change is roughly parallel with carbon, with the addition of rock weathering as a mineral source of phosphorous. Immobilisation onto clay causes loss to the cycling system.</li>
+</ul>
+<p><em>Humification of N and P (Chart 2A-B, Charts 4A-B),</em></p>
+<ul class="simple">
+<li>Both rise then fall to similar levels in both crop conditions by year 19, and at a greater rate in agroforestry over first five years.</li>
+<li>N &amp; P formation shows a sustained decrease, greater in maize only than agroforestry.</li>
+<li>Mineralisation of stable and labile N shows no change for agroforestry, a slow sustained decrease in monocrop maize.</li>
+<li>Stable P remains at the same level in both conditions.</li>
+<li>Labile N shows a sustained decrease, greater for monocrop than agroforestry * C:N ratio shows a sustained slow decrease in agroforestry and a zero value for crop only. Nitrogen may also be leached.</li>
+<li>Erosion of organic P and N is greater in MO, and reaches the same level after 19 years.</li>
+<li>If growth is nitrogen limited, all is taken up by the plant (after losses), in the simulation.</li>
+</ul>
+<img alt="../images/soilErosion6.jpg" src="../images/soilErosion6.jpg" />
+<ul class="simple">
+<li><dl class="first docutils">
+<dt><em>From Fig 5 Above,</em></dt>
+<dd><ul class="first last">
+<li>plant uptake of N is is greater in agroforestry, though declines to reach same level as declining N in monoculture in year 20.</li>
+<li>Losses are less, and there is additional symbiotic fixation in agroforestry.</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><em>From Chart (5A-B),</em></dt>
+<dd><ul class="first last">
+<li>Available soil mineral phosphorous is much greater in agroforestry (after an initial decline), with less leaching, increased litter mineralisation, and fixation in the long term.</li>
+<li>Litter content falls below humus content of N in both conditions, indicating reduced availability for growth.</li>
+<li>Labile organic N and P decline at a faster rate in maize-only. P in littermineral form is available only in agroforestry.</li>
+<li>Nutrient availability (figure 5, Appendix 1) is calculated for soils under trees and under crops.</li>
+<li>Symbiotic fixation with Glyricidia only, favours agroforestry conditions.</li>
+<li>Flows of N and P through plants return to soil though humification and mineralisation of litter, throughfall and stemflow, which are greater for trees.</li>
+<li>N and P are gained by the soil and trees through atmospheric deposition (rain and dust), non-symbiotic fixation (N), symbiotic fixation (N), deep capture by trees, from below the modelling depth, and rock weathering.</li>
+<li>Losses through humus decomposition are less for trees, by default.</li>
+<li>Gains of phosphorous are not greater for trees by weathering.</li>
+<li>N and P loss by leaching is less under tress, but not clay fixation and gaseous loss, according to the model. Additionally, there are losses due to soil removal, which is greater in maize only soils.</li>
+<li>Phosphorous immobilisation onto clay minerals is known higher in strongly acid soil. By default,this is the same for both conditions, However, trees can regulate acidity.</li>
+<li>Root infiltration is known to aid aeration and hence, productivity of the soil.</li>
+<li>There are two paths for transfer of nutrients to to crop via the soil, through mineralisation and trough humification; mineralisation is faster, and prone to leaching.</li>
+<li>For organic matter to increase, prunings would need to humify.</li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</div>
+<div class="section" id="plant-growth">
+<h2><a class="toc-backref" href="#id10">10&nbsp;&nbsp;&nbsp;Plant growth</a></h2>
+<p>Growth rates are modified in the simulation by the effects of changes in nutrients, carbon, and soil depth. Rates may be higher or lower under trees.</p>
+<p>Requirements are estimated from initial growth rates of composition and growth. If either N or P is deficient plant growth is reduced proportionally (i.e. availability/requirements), using the law of the minimum.</p>
+<p>High fertility favours growth of herbaceous plants, but may be offset by competition for resources such as light or water.</p>
+<p>Tree-crop competition is calculated on the basis of relative root densities specified. I calculated these as a fraction of NPP before entering as initial annual root growth; 40% for trees, 25% for maize.</p>
+<p>OM facilitation of root development and water holding-capacity is modelled through a feedback factor.</p>
+<div class="section" id="trees-and-phosphorous-and-micorrhiza">
+<h3>10.1&nbsp;&nbsp;&nbsp;Trees and Phosphorous and Micorrhiza</h3>
+<p>Trees had a clear ability to assist in the cycles of phosphorous. Phosphorous has poor solubility. P organic pool, as sugars, acids, DNA is unavailable. Acquisition of P can is by solubilizing through change in ph, or by chelating. Examples include ALFeP and H+ exchange, or through release of organic acids (citrates, malates, oxalates), the ability to take up phosphate in the area which the plant can exploit (rhizoshpere) is 2-3 mm.</p>
+<p>Acquisition of nutrients, such as phosphorous, is aided by tree root micorrhiza. Organic phosphatase enzymes have greater reach than trees themselves. Thus higher yields are maintained or aided, through greater uptake with low soil P. They exploit a much larger soil volume through hyphae spread. The phosphorous is taken up, stored in chains and transported to the xyloplasm in the hyphae. This is passed on to the plant in amounts to allow increased plant growth. Although micorrhiza have a high P need themselves, hyphal turnover is expected. Carbon is requested from the plant in exchange. Again, the higher bulk growth, and stores, contribute to higher root turnover.</p>
+<p>Micorrhiza contribute to 10- 30% of total photosynthesis. Thus they can help to add total carbon biomass to the system. Pathogen resistance and drought resistance are further plant benefits. It has been reported that michorrhizal plants may grow at the expense of non-michorrizal plants, which is issues for management and selection.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2><a class="toc-backref" href="#id11">11&nbsp;&nbsp;&nbsp;Conclusion</a></h2>
+<p>The simulation compares two systems as a nutrient cycling system.
+<em>Gliricidia sepium</em> is fast growing, and known to be less competitive than N-fixing <em>Leucaena leucocephala</em>, and so the results concerning crop cover are reasonable.</p>
+<p>Losses to the system were at a slower rate in agroforest than monocrop, indicating longer term sustainability of soil fertility. This is due to the k erosion factor of the model. Many advantages or disadvantages are subsumed in the TPF. Trees have the capacity to reduce erosion through maintenance of higher biomass and cover, reflected by the model. Trees in agroforest are able to contribute atmospheric and soil nutrients to plants directly, and through the soil, as well as prevent leaching. This is due in part to symbiotic associations with bacteria.</p>
+<p>Where data can be specified from the trial under consideration, the model becomes more useful. User defined variables are its strength,as a research and educational tool. It is not designed to give simple answers. Scuaf may also help to refine our assumptions, in the use of ecophysiological models.
+Observed results of agroforest systems have been checked by simulation, and SCUAF's calibration has been adjusted accordingly.</p>
+<p>Given an unprecedented and worrying scale of soil degradation in our times, inter-cropping may be useful in a range of alternative practices. Particular combinations and micro-climatic effects, and long term equilibrium need be examined.</p>
+<p>Data input may now be used to calibrate factors in less well known conditions, such as temperate climates. Default values may be adjusted against observed soil changes under experimental conditions, until the model simulates the results. For example, root to shoot ratio increases with low nutrient supply and root hairs promote P uptake. The additional factor (P), for erosion, representing erosion control practice could be added to the model by comparing with land ploughed against contour, without structures.</p>
+<p>Scuaf does not represent competition for water. This is a shortcoming. However, water availability is dependent upon seasonal climatic variations.</p>
+</div>
+<div class="section" id="references-scuaf">
+<h2><a class="toc-backref" href="#id12">12&nbsp;&nbsp;&nbsp;References SCUAF</a></h2>
+<p>C.K.Ong,&amp;P. Huxley <em>Tree-Crop Interactions A physiological Approach CAB International:</em> Oxford. 1996.</p>
+<p>C.K. Ong <em>A framework for quantifying the Various efects of Tree-Crop Interactions.</em></p>
+<p>C.K. Ong, C.R. Black, F.M. Marshall and J.E. Corlett <em>Principles of LIght Resource Capture and Utilization of Light and Water.</em></p>
+<p>A.J. Brenner <em>Microclimate Modifications In Agrofoestry.</em></p>
+<p>J.S. Wallace <em>The Water Balance of Mixed Tree-Crop Systems.</em></p>
+<ol class="upperalpha simple" start="13">
+<li>Avery et al. <em>Biophysical Research for Asian Agroforestry</em>   Winrock International, USA 1991.</li>
+</ol>
+<p>Fukai S. <em>Intercropping-bases of productivity  Field Crops research</em>, 34 (1993) 239-245.</p>
+<p>C.K.Ong,&amp;P. Huxley <em>Tree-Crop Interactions A physiological Approach CAB International:</em> Oxford. 1996.</p>
+<p>C.K. Ong <em>A framework for quantifying the Various effects of Tree-Crop Interactions</em>.</p>
+<p>C.K. Ong, C.R. Black, F.M. Marshall and J.E. Corlett <em>Principles of Light Resource Capture and Utilization of Light and Water.</em></p>
+<p>A.J. Brenner <em>Microclimate Modifications In Agrofoestry.</em></p>
+<p>J.S. Wallace <em>The Water Balance of Mixed Tree-Crop Systems.</em></p>
+<p>L.D. Incoll* et al*     Temperate silvoarable agroforestry with quality hardwood timber species.* Agroforestry Forum Dec. 1997 Vol 8 No.3.</p>
+<p>L.D. Incoll* et al      <em>Temperate silvoarable agroforestry with poplar</em> Agroforestry Forum Dec. 1997 Vol 8 No.3.</p>
+<p>Jim McAdam and Gerry Hoppe      <em>Sheep performance and production from a lowland silvopastoral system</em> Agroforestry Forum Dec. 1997 Vol 8 No.3.</p>
+<p>Hoppe, G. M.; Crowe, S. R.; McAdam, J. H.*Changes in pasture composition in establishing and mature silvopastoral systems.* Proceedings of the International occasional symposium of the European Grassland Federation, Thessaloniki, Greece, 27-29 May, 1999.</p>
+<p>Schalitz, G.; Behrendt, A.; Fischer, A. <em>Advantages of Trees and Shrubs Contribute to Fen Pasture Landscapes.</em> Folia Universitatis Agriculturae Stetinensis, Agricultura, 1999, No.75.</p>
+<p>Olff, H.; Vera, et al*Shifting mosaics in grazed woodlands driven by the alternation of plant facilitation and competition.* Plant Biology, 1999, Vol.1, No.2, pp.127-137, 64 ref.</p>
+<ol class="upperalpha simple" start="6">
+<li>Sinclair     <em>Ecological Interactions in agroforestry systems</em>       Agroforestry Abstracts CAB International, 1993.</li>
+</ol>
+<ol class="upperalpha simple" start="13">
+<li>Avery et al. <em>Biophysical Research for Asian Agroforestry</em>   Winrock International, USA 1991.</li>
+</ol>
+<ol class="upperalpha simple">
+<li>Young        <em>Agroforestry for soil Management</em>      ICRAF/ CAB International 1997.</li>
+</ol>
+</div>
+<div class="section" id="appendix-2">
+<h2><a class="toc-backref" href="#id13">13&nbsp;&nbsp;&nbsp;Appendix 2</a></h2>
+<div class="section" id="charts-1-10">
+<h3>13.1&nbsp;&nbsp;&nbsp;Charts 1-10</h3>
+<img alt="../images/ChartsSoilChanges1.jpg" src="../images/ChartsSoilChanges1.jpg" />
+<img alt="../images/ChartsSoilChanges2.jpg" src="../images/ChartsSoilChanges2.jpg" />
+<img alt="../images/ChartsSoilChanges3.jpg" src="../images/ChartsSoilChanges3.jpg" />
+<img alt="../images/ChartsSoilChanges4.jpg" src="../images/ChartsSoilChanges4.jpg" />
+<img alt="../images/ChartsSoilChanges5.jpg" src="../images/ChartsSoilChanges5.jpg" />
+<img alt="../images/ChartsSoilChanges6.jpg" src="../images/ChartsSoilChanges6.jpg" />
+<img alt="../images/ChartsSoilChanges7.jpg" src="../images/ChartsSoilChanges7.jpg" />
+<img alt="../images/ChartsSoilChanges8.jpg" src="../images/ChartsSoilChanges8.jpg" />
+<img alt="../images/ChartsSoilChanges9.jpg" src="../images/ChartsSoilChanges9.jpg" />
+<img alt="../images/ChartsSoilChanges10.jpg" src="../images/ChartsSoilChanges10.jpg" />
+<img alt="../images/ChartsSoilChanges11.jpg" src="../images/ChartsSoilChanges11.jpg" />
+<img alt="../images/ChartsSoilChanges12.jpg" src="../images/ChartsSoilChanges12.jpg" />
+<img alt="../images/ChartsSoilChanges13.jpg" src="../images/ChartsSoilChanges13.jpg" />
+<img alt="../images/ChartsSoilChanges14.jpg" src="../images/ChartsSoilChanges14.jpg" />
+<img alt="../images/ChartsSoilChanges15.jpg" src="../images/ChartsSoilChanges15.jpg" />
+<img alt="../images/ChartsSoilChanges16.jpg" src="../images/ChartsSoilChanges16.jpg" />
+<img alt="../images/ChartsSoilChanges17.jpg" src="../images/ChartsSoilChanges17.jpg" />
+</div>
+</div>
+</div></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="plum.github.io/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="plum.github.io/ru/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        Russian
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jakBop" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

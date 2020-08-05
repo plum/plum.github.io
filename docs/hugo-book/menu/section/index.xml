@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plum Site</title>
+    <link>plum.github.io/docs/hugo-book/menu/section.html</link>
+    <description>Recent content on Plum Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="plum.github.io/docs/hugo-book/menu/section/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>plum.github.io/docs/hugo-book/menu/section/page1.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>plum.github.io/docs/hugo-book/menu/section/page1.html</guid>
+      <description>Page 1 #  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>plum.github.io/docs/hugo-book/menu/section/page2.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>plum.github.io/docs/hugo-book/menu/section/page2.html</guid>
+      <description>Page 2 #  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>plum.github.io/ru/categories.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="plum.github.io/categories.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="plum.github.io/ru/categories.html"
+                />
+  </url>
+  
+  <url>
+    <loc>plum.github.io/ru/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="plum.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="plum.github.io/ru/"
+                />
+  </url>
+  
+  <url>
+    <loc>plum.github.io/ru/tags.html</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="plum.github.io/tags.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="plum.github.io/ru/tags.html"
+                />
+  </url>
+  
+</urlset>

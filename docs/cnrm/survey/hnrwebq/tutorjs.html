@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sample WebQ Application  // Edit the following lines for your purposes //*** URL of the help page; //help_url=&#34;tutorhlp.htm&#34;; help_button=&#34;Back&#34;; help_url=&#34;javascript:if(opener){opener.focus();self.close()}else history.back(2)&#34;; forcedchoice = false ; //set &#39;false&#39; to permit sending sorts that //do not match the prescribed response distribution //(usually set &#39;true&#39;) randomsort = false; //set &#39;false&#39; if statements are to be ordered //in original sequence (usually set &#39;true&#39;) recipient = &#39;&#39;; //address is empty here (Tutor example!">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Sample WebQ Application  // Edit the following lines for your purposes //*** URL of the help page; //help_url=&#34;tutorhlp.htm&#34;; help_button=&#34;Back&#34;; help_url=&#34;javascript:if(opener){opener.focus();self.close()}else history.back(2)&#34;; forcedchoice = false ; //set &#39;false&#39; to permit sending sorts that //do not match the prescribed response distribution //(usually set &#39;true&#39;) randomsort = false; //set &#39;false&#39; if statements are to be ordered //in original sequence (usually set &#39;true&#39;) recipient = &#39;&#39;; //address is empty here (Tutor example!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html" />
+
+<title>Tutorjs | Plum Site</title>
+<link rel="manifest" href="/plum.github.io/manifest.json">
+<link rel="icon" href="/plum.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/plum.github.io/book.min.dc9dc3d9565a65df02c7dda2a839404a6eeb7c23fae886dade240bec102b3ddd.css" integrity="sha256-3J3D2VZaZd8Cx92iqDlASm7rfCP66Iba3iQL7BArPd0=">
+<script defer src="/plum.github.io/en.search.min.0f1dcd0a374a244ebb9cba52d7d73a786ae1b75d642ed2217ffb95ad36376da9.js" integrity="sha256-Dx3NCjdKJE67nLpS19c6eGrht11kLtIhf/uVrTY3bak="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/plum.github.io"><span>Plum Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <a href="plum.github.io/docs/hugo-book.html" class="collapsed ">Hugo-Book</a>
+  
+
+          
+  
+  
+  
+
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm.html" class="collapsed ">Land Management</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/remote_sensing.html" class="">Remote Sensing</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry.html" class="">Agroforestry</a>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/upland_diversification_pontbren.html" class="">Agroforestry Upland Farm Diversification, Wales</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/economics_agroforestry.html" class="">Economics of Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/ecosystemproductivity_oda.html" class="">Enhancing ecosystem and productivity in Oda</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html" class="">Soil Changes Under Agroforestry</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_light_Water_growth.html" class="">Modelling Silvopasture Light, Water and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agricultural_policies_flooding.html" class="">Agricultural Policies to Mitigate Flooding</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mosaics_cdfu.html" class="">Modelling Interactions in Shifting Mosaics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html" class="">Modelling Silvopasture Canopy and Growth</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/agroforest_systems_baltistan.html" class="">Representing Agroforest Systems Baltistan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/localknowledge_atwima.html" class="">Representing Local Knowledge, Atwima</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/agroforestry/mountain_culture.html" class="">Mountain Culture, Natural Resources and Tourism</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Man-Nature Values Study</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/man_nature/hnrstudy.html" class="">Human Nature Relationship Questionnaire</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Management Plans</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_archaeological_features.html" class="">Orme Archaeological Features</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brachypodium_sylvaticum.html" class="">Orme Brachypodium sylvaticum grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_brackenpteridiumaquili.html" class="">Orme Bracken Pteridium aquilinum</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_broadleavedwoodland.html" class="">Orme Broad-leaved Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousheath.html" class="">Orme Calcicolous Grass Heath</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcifugousgrass.html" class="">Orme Calcifugous Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_densescatteredscrub.html" class="">Orme Dense/Scattered Scrub</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_quarries.html" class="">Orme Disturbed ground, Quarries, Rock outcrops</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_educationinterpretation.html" class="">Orme Education, Interpretation, Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fauna.html" class="">Orme Fauna</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_fenmeadow.html" class="">Orme Fen Meadow</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_limestonepavement.html" class="">Orme Limestone Pavement</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_seacliffslimestone.html" class="">Orme Limestone Sea cliffs and maritime communities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_calcicolousgrass.html" class="">Orme Lowland Calcicolous Grassland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_management_plan.html" class="">Orme Management Plan</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_mesotrophicgrasslands.html" class="">Orme Mesotrophic Grasslands</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_recreationalfacilities.html" class="">Orme Recreational Use and Facilities</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_silverstuddedblue.html" class="">Orme Silver-Studded Blue Butterfly</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_specificsitemanagement.html" class="">Orme Specific Site Management Projects</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/management/orme_wildcotoneaster.html" class="">Orme Wild Cotoneaster</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Species Conservation</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/cheetah.html" class="">Cheetah Decline</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/conservation_species.html" class="">Conservation of Species</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/zoos.html" class="">Ex Situ, In Situ Conservation and Zoos</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/oryx.html" class="">Reintroduction Arabian Oryx</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/species-conservation/development.html" class="">Species and Development</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Surveying</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html" class="">Establishing Walnut and Connecting Woodland</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html" class="">Samplejs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html" class="active">Tutorjs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html" class="">JNCC Habitat Survey Mynnd Llangednai</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <span>Thesis Human-Nature Values</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_preface.html" class="">Preface</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_declaration.html" class="">Declaration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_acknowledgements.html" class="">Acknowledgements</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_tablesandfigures.html" class="">Tables and Figures</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_results.html" class="">Results of the Investigation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_references.html" class="">References</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="plum.github.io/docs/cnrm/values/thesis_Q_values.html" class="">Adaptation of Sacred Land</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="plum.github.io/posts.html" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/plum.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Tutorjs</strong>
+
+  <label for="toc-control">
+    
+    <img src="/plum.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <TITLE>Sample WebQ Application</TITLE>
+</HEAD>
+<script language="JavaScript"> 
+
+// Edit the following lines for your purposes
+//*** URL of the help page;
+//help_url="tutorhlp.htm";
+
+help_button="Back";
+help_url="javascript:if(opener){opener.focus();self.close()}else history.back(2)";
+
+
+forcedchoice = false ; //set 'false' to permit sending sorts that
+                      //do not match the prescribed response distribution
+                      //(usually set 'true')
+
+randomsort = false;  //set 'false' if statements are to be ordered
+                    //in original sequence (usually set 'true')
+
+recipient = '';     //address is empty here (Tutor example!)
+                    //if there is no recipient the Submit-button will be suppressed!
+subject = 'Q-Sort data for Sample WebQ'; //email subject line 
+
+//*** Name of the extremist categories:
+leftanchor = 'Least of ... (whatever)';
+rightanchor = 'Most of ... (whatever)';
+
+//*** will be displayed at the center of the top frame:
+study_title = 'WebQ-Sort Tutorial - Mark statements as indicated<br>Click <b>Update</b> as often as you wish ...'
+
+//*** No. of statements:
+numstatements = 9;
+
+//*** No. of categories:
+categories = 5;
+cat = new Array(categories); //don't change this line
+
+//*** Distribution of the categories. If you have more categories add it.
+//    (and adjust the 'categories=' above
+cat[1] = 1;
+cat[2] = 2;
+cat[3] = 3;
+cat[4] = 2;
+cat[5] = 1;
+
+//*** Your statements. You can adjust it to the no. of your statements.
+statement = new Array(numstatements); //don't change this line
+statement[1] =  "Mark me <b><b>+2</b></b> and click <b>UPDATE</b>";
+statement[2] =  "Leave me at 'don't know': <b>0</b>";
+statement[3] =  "Give me a positive mark: <b>+1</b>";
+statement[4] =  "Move me down to: <b>-1</b>";
+statement[5] =  "Move me up to: <b>+1</b>";
+statement[6] =  "Put me to the lowest rank!";
+statement[7] =  "Another 'neither/nor': <b>0</b> ";
+statement[8] =  "No opinion to that";
+statement[9] =  "Where is my empty 'slot'?";
+
+//*** No. of post-sort questions:
+numpostq = 2; 
+postq = new Array(numpostq); //don't change this line!!
+postansw = new Array(numpostq); //don't change this line!!
+
+//*** Your post-sort questions:
+postq[1] = "Please tell me how you like the WebQ Tutorial";
+postq[2] = "Did you experience any difficulties?";
+
+//study definitions part ends here (do not delete next line)
+</script>   
+
+<!--Main WebQ code is included from src "webqcode.js"
+   In case you put this application on a webserver that doesn't support
+   the js MIME-type (which is required for Netscape 3.0 only) 
+   you should insert the content of the file webqcode.js directly
+   after the '//study def. part ends here ...' line, and delete
+   the two lines following next with script and end-script tags -->
+
+<script language="JavaScript" src="webqcode.js" type="text/javascript">
+</script>
+</html>  
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+  
+
+
+  
+
+  
+
+
+
+<div class="book-languages" tabindex="0" aria-haspopup="true">
+  <ul>
+    <li class="flex align-center">
+      <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+      English
+    </li> 
+  </ul>
+
+  <ul class="book-languages-list">
+    
+    <li class="active">
+      <a href="plum.github.io/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </li>
+    
+    <li class="">
+      <a href="plum.github.io/ru/" class="flex align-center">
+        <img src="/plum.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        Russian
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jakBop" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
