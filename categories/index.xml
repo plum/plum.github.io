@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Plum Site</title>
-    <link>plum.github.io/categories.html</link>
+    <link>https//plum.github.io/categories.html</link>
     <description>Recent content in Categories on Plum Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Mar 2002 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="plum.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https//plum.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cnrm</title>
-      <link>plum.github.io/categories/cnrm.html</link>
+      <link>https//plum.github.io/categories/cnrm.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>plum.github.io/categories/cnrm.html</guid>
+      <guid>https//plum.github.io/categories/cnrm.html</guid>
       <description></description>
     </item>
     
