@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Land Management on Plum Site</title>
-    <link>https//plum.github.io/docs/cnrm.html</link>
+    <link>https://plum.github.io/docs/cnrm.html</link>
     <description>Recent content in Land Management on Plum Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 29 Oct 2002 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https//plum.github.io/docs/cnrm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://plum.github.io/docs/cnrm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Remote Sensing</title>
-      <link>https//plum.github.io/docs/cnrm/remote_sensing.html</link>
+      <link>https://plum.github.io/docs/cnrm/remote_sensing.html</link>
       <pubDate>Sat, 29 Dec 2001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/remote_sensing.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/remote_sensing.html</guid>
       <description>Table of Contents
 1&amp;nbsp;&amp;nbsp;&amp;nbsp;Remote Sensing and GIS 2&amp;nbsp;&amp;nbsp;&amp;nbsp;Viewpoints and Surveys 3&amp;nbsp;&amp;nbsp;&amp;nbsp;Remote Sensing Basics 4&amp;nbsp;&amp;nbsp;&amp;nbsp;Absorption Spectra 5&amp;nbsp;&amp;nbsp;&amp;nbsp;Absorption Spectra of Species   Remote sensing includes all methods, from aerial photography to satellite radiation sensing.
 Radiation patterns are interpreted to give useful information of landscape perspective. Absorption spectra of soils, rocks and vegetation differ, and knowledge of these differences enhance interpretation and use for planning.

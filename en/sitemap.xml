@@ -3,452 +3,452 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_preface.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_preface.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/table-of-contents/with-toc.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/table-of-contents/with-toc.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm.html</loc>
+    <loc>https://plum.github.io/docs/cnrm.html</loc>
     <lastmod>2002-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_declaration.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_declaration.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/table-of-contents/without-toc.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/table-of-contents/without-toc.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_acknowledgements.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_acknowledgements.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_tablesandfigures.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_tablesandfigures.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_results.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_results.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_references.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_references.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/remote_sensing.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/remote_sensing.html</loc>
     <lastmod>2001-12-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/posts/creating-a-new-theme.html</loc>
+    <loc>https://plum.github.io/posts/creating-a-new-theme.html</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/table-of-contents.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/table-of-contents.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/posts.html</loc>
+    <loc>https://plum.github.io/posts.html</loc>
     <lastmod>2020-08-04T16:01:52+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/posts/cabbalists.html</loc>
+    <loc>https://plum.github.io/posts/cabbalists.html</loc>
     <lastmod>2020-08-04T16:01:52+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/</loc>
-    <lastmod>2020-08-04T16:01:52+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https//plum.github.io/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https//plum.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https//plum.github.io/tags/spirit.html</loc>
-    <lastmod>2020-08-04T16:01:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https//plum.github.io/tags.html</loc>
+    <loc>https://plum.github.io/</loc>
     <lastmod>2020-08-04T16:01:52+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https//plum.github.io/ru/tags.html"
+                href="https://plum.github.io/ru/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https//plum.github.io/tags.html"
+                href="https://plum.github.io/"
                 />
   </url>
   
   <url>
-    <loc>https//plum.github.io/posts/downtoyou.html</loc>
+    <loc>https://plum.github.io/tags/spirit.html</loc>
+    <lastmod>2020-08-04T16:01:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://plum.github.io/tags.html</loc>
+    <lastmod>2020-08-04T16:01:52+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://plum.github.io/ru/tags.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://plum.github.io/tags.html"
+                />
+  </url>
+  
+  <url>
+    <loc>https://plum.github.io/posts/downtoyou.html</loc>
     <lastmod>2020-08-04T10:33:52+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/upland_diversification_pontbren.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/upland_diversification_pontbren.html</loc>
     <lastmod>2002-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs.html</loc>
+    <loc>https://plum.github.io/docs.html</loc>
     <lastmod>2002-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_archaeological_features.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_archaeological_features.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_brachypodium_sylvaticum.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_brachypodium_sylvaticum.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_brackenpteridiumaquili.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_brackenpteridiumaquili.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_broadleavedwoodland.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_broadleavedwoodland.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_calcicolousheath.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_calcicolousheath.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_calcifugousgrass.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_calcifugousgrass.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_densescatteredscrub.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_densescatteredscrub.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_quarries.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_quarries.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_educationinterpretation.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_educationinterpretation.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_fauna.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_fauna.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_fenmeadow.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_fenmeadow.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_limestonepavement.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_limestonepavement.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_seacliffslimestone.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_seacliffslimestone.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_calcicolousgrass.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_calcicolousgrass.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_management_plan.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_management_plan.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_mesotrophicgrasslands.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_mesotrophicgrasslands.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_recreationalfacilities.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_recreationalfacilities.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_silverstuddedblue.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_silverstuddedblue.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_specificsitemanagement.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_specificsitemanagement.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management/orme_wildcotoneaster.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management/orme_wildcotoneaster.html</loc>
     <lastmod>2002-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</loc>
     <lastmod>2002-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/tags/woodland.html</loc>
+    <loc>https://plum.github.io/tags/woodland.html</loc>
     <lastmod>2002-03-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/categories.html</loc>
+    <loc>https://plum.github.io/categories.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https//plum.github.io/ru/categories.html"
+                href="https://plum.github.io/ru/categories.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https//plum.github.io/categories.html"
+                href="https://plum.github.io/categories.html"
                 />
   </url>
   
   <url>
-    <loc>https//plum.github.io/categories/cnrm.html</loc>
+    <loc>https://plum.github.io/categories/cnrm.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/economics_agroforestry.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/economics_agroforestry.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/man_nature.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/man_nature.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/management.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/management.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/survey.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/survey.html</loc>
     <lastmod>2002-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/ecosystemproductivity_oda.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/ecosystemproductivity_oda.html</loc>
     <lastmod>2002-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/man_nature/hnrstudy.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/man_nature/hnrstudy.html</loc>
     <lastmod>2002-02-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/soil_change_scuaf.html</loc>
     <lastmod>2001-12-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/silvopasture_light_Water_growth.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/silvopasture_light_Water_growth.html</loc>
     <lastmod>2001-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values/thesis_Q_values.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values/thesis_Q_values.html</loc>
     <lastmod>2001-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/agricultural_policies_flooding.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/agricultural_policies_flooding.html</loc>
     <lastmod>2001-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/values.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/values.html</loc>
     <lastmod>2001-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/tags/values.html</loc>
+    <loc>https://plum.github.io/tags/values.html</loc>
     <lastmod>2001-11-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation/cheetah.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation/cheetah.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation/conservation_species.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation/conservation_species.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation/zoos.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation/zoos.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/mosaics_cdfu.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/mosaics_cdfu.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/silvopasture_model.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation/oryx.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation/oryx.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/agroforest_systems_baltistan.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/agroforest_systems_baltistan.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/tags/species.html</loc>
+    <loc>https://plum.github.io/tags/species.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/species-conservation/development.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/species-conservation/development.html</loc>
     <lastmod>2001-11-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/localknowledge_atwima.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/localknowledge_atwima.html</loc>
     <lastmod>2001-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/collapsed/3rd-level/4th-level.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/collapsed/3rd-level/4th-level.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/collapsed/3rd-level.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/collapsed/3rd-level.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/collapsed/hidden.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/collapsed/hidden.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/section.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/section.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/section/page1.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/section/page1.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/section/page2.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/section/page2.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/buttons.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/buttons.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/columns.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/columns.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/details.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/details.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/expand.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/expand.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/hints.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/hints.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/katex.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/katex.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/mermaid.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/mermaid.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/shortcodes/tabs.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/shortcodes/tabs.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/hugo-book/menu/collapsed.html</loc>
+    <loc>https://plum.github.io/docs/hugo-book/menu/collapsed.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</loc>
   </url>
   
   <url>
-    <loc>https//plum.github.io/docs/cnrm/agroforestry/mountain_culture.html</loc>
+    <loc>https://plum.github.io/docs/cnrm/agroforestry/mountain_culture.html</loc>
   </url>
   
 </urlset>

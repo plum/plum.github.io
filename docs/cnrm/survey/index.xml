@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Surveying on Plum Site</title>
-    <link>https//plum.github.io/docs/cnrm/survey.html</link>
+    <link>https://plum.github.io/docs/cnrm/survey.html</link>
     <description>Recent content in Surveying on Plum Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Mar 2002 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https//plum.github.io/docs/cnrm/survey/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://plum.github.io/docs/cnrm/survey/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Establishing Walnut and Connecting Woodland</title>
-      <link>https//plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</link>
+      <link>https://plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</link>
       <pubDate>Fri, 29 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/survey/woodland_walnut_connect.html</guid>
       <description>Objectives #  To find suitable sites within the Snowdonia National Park for provenance trials with walnut trees.
 The trees are to be grown for timber and fruit and contribute to sustainable and biodiverse land use systems with structured woodland corridors.
 Introduction, Land-use Diversification, Wales #  UK farming is experiencing problems of economics and sustainability. This includes ‘less favoured’ areas, which cover much of Wales.
@@ -24,28 +24,28 @@ Less favoured areas are over 240 metres, a category of hills and uplands which a
     
     <item>
       <title></title>
-      <link>https//plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</link>
+      <link>https://plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/survey/hnrwebq/samplejs.html</guid>
       <description>Human Nature Relationship  // Edit the following lines for your purposes //*** study_title will be displayed at the center of the top frame // (may contain also short instruction. Use for line break) study_title = &#39;Human Nature Relationship WebQ-Sort&#39;; //*** address that will accept results // (nobody@localhost is standard for copy to Trash on Mailserver) recipient = &#39;bollybosh@gmail.com&#39;; //*** email subject line: subject = &#39;Human Nature Relationship WebQ-Sort&#39;; //*** URL of the &#39;help page&#39; and name of button for &#39;help page&#39;; help_url=&#34;</description>
     </item>
     
     <item>
       <title></title>
-      <link>https//plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</link>
+      <link>https://plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/survey/hnrwebq/tutorjs.html</guid>
       <description>Sample WebQ Application  // Edit the following lines for your purposes //*** URL of the help page; //help_url=&#34;tutorhlp.htm&#34;; help_button=&#34;Back&#34;; help_url=&#34;javascript:if(opener){opener.focus();self.close()}else history.back(2)&#34;; forcedchoice = false ; //set &#39;false&#39; to permit sending sorts that //do not match the prescribed response distribution //(usually set &#39;true&#39;) randomsort = false; //set &#39;false&#39; if statements are to be ordered //in original sequence (usually set &#39;true&#39;) recipient = &#39;&#39;; //address is empty here (Tutor example!</description>
     </item>
     
     <item>
       <title>JNCC Habitat Survey Mynnd Llangednai</title>
-      <link>https//plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</link>
+      <link>https://plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/survey/JNCC_habitat_survey.html</guid>
       <description>.. contents:: Table of Contents :depth: 1
 JNCC habitat mapping is a rapid though fairly detailed mapping of vegetation habitats on the ground.
 Survey Notes #  .. Figure:: ../images/OS_mynyddllangednai_smll.jpg :width: 300 :height: 453

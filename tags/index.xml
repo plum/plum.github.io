@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Plum Site</title>
-    <link>https//plum.github.io/tags.html</link>
+    <link>https://plum.github.io/tags.html</link>
     <description>Recent content in Tags on Plum Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 04 Aug 2020 16:01:52 +0100</lastBuildDate>
     
-	<atom:link href="https//plum.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://plum.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>spirit</title>
-      <link>https//plum.github.io/tags/spirit.html</link>
+      <link>https://plum.github.io/tags/spirit.html</link>
       <pubDate>Tue, 04 Aug 2020 16:01:52 +0100</pubDate>
       
-      <guid>https//plum.github.io/tags/spirit.html</guid>
+      <guid>https://plum.github.io/tags/spirit.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>woodland</title>
-      <link>https//plum.github.io/tags/woodland.html</link>
+      <link>https://plum.github.io/tags/woodland.html</link>
       <pubDate>Fri, 29 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/tags/woodland.html</guid>
+      <guid>https://plum.github.io/tags/woodland.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>values</title>
-      <link>https//plum.github.io/tags/values.html</link>
+      <link>https://plum.github.io/tags/values.html</link>
       <pubDate>Thu, 29 Nov 2001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/tags/values.html</guid>
+      <guid>https://plum.github.io/tags/values.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>species</title>
-      <link>https//plum.github.io/tags/species.html</link>
+      <link>https://plum.github.io/tags/species.html</link>
       <pubDate>Fri, 02 Nov 2001 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/tags/species.html</guid>
+      <guid>https://plum.github.io/tags/species.html</guid>
       <description></description>
     </item>
     

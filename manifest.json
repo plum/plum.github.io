@@ -1,14 +1,14 @@
 {
   "name": "Plum Site",
   "short_name": "Plum Site",
-  "start_url": "/https/plum.github.io/",
-  "scope": "/https/plum.github.io/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/https/plum.github.io/favicon.svg",
+      "src": "/favicon.svg",
       "sizes": "512x512"
     }
   ]

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cnrm on Plum Site</title>
-    <link>https//plum.github.io/categories/cnrm.html</link>
+    <link>https://plum.github.io/categories/cnrm.html</link>
     <description>Recent content in cnrm on Plum Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 02 Mar 2002 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https//plum.github.io/categories/cnrm/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://plum.github.io/categories/cnrm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Agroforestry</title>
-      <link>https//plum.github.io/docs/cnrm/agroforestry.html</link>
+      <link>https://plum.github.io/docs/cnrm/agroforestry.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/agroforestry.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/agroforestry.html</guid>
       <description>collapsible: when not set, gives a link in the menu but without submenu&#39;s; they do appeatr on this (_index) page.
 filename must be _index.md or .rst etc - if just index, it will not work to give unfolding menu.
 rst subtitle is set
@@ -24,37 +24,37 @@ Agroforestry addresses a wide range of needs at the household/farm level. It has
     
     <item>
       <title>Man-Nature Values Study</title>
-      <link>https//plum.github.io/docs/cnrm/man_nature.html</link>
+      <link>https://plum.github.io/docs/cnrm/man_nature.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/man_nature.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/man_nature.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Management Plans</title>
-      <link>https//plum.github.io/docs/cnrm/management.html</link>
+      <link>https://plum.github.io/docs/cnrm/management.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/management.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/management.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Species Conservation</title>
-      <link>https//plum.github.io/docs/cnrm/species-conservation.html</link>
+      <link>https://plum.github.io/docs/cnrm/species-conservation.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/species-conservation.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/species-conservation.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Surveying</title>
-      <link>https//plum.github.io/docs/cnrm/survey.html</link>
+      <link>https://plum.github.io/docs/cnrm/survey.html</link>
       <pubDate>Sat, 02 Mar 2002 00:00:00 +0000</pubDate>
       
-      <guid>https//plum.github.io/docs/cnrm/survey.html</guid>
+      <guid>https://plum.github.io/docs/cnrm/survey.html</guid>
       <description></description>
     </item>
     
